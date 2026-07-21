@@ -1,0 +1,227 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                   ✅ miniERP Pro - PRONTO PARA USAR! ✅                      ║
+║                                                                              ║
+║         Super Customização Visual + Dark Mode + Amarelo Corporativo         ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🎯 COMEÇAR AGORA - ESCOLHA SUA PLATAFORMA
+═════════════════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🪟 WINDOWS 10/11                                                           │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  1. Abra o gerenciador de arquivos (Windows Explorer)                       │
+│  2. Navegue até a pasta do projeto: miniERP-pro                             │
+│  3. Procure o arquivo: iniciar.bat                                          │
+│  4. Duplo clique no arquivo iniciar.bat                                     │
+│  5. Aguarde 30-60 segundos                                                  │
+│  6. A aplicação abrirá automaticamente!                                     │
+│                                                                              │
+│  ⏱️ Tempo total: ~2 minutos                                                  │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🍎 macOS                                                                    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  1. Abra o Terminal (Cmd+Space, digite "Terminal")                          │
+│  2. Digite: cd ~/miniERP-pro                                                │
+│  3. Digite: chmod +x iniciar.sh                                             │
+│  4. Digite: ./iniciar.sh                                                    │
+│  5. Aguarde 30-60 segundos                                                  │
+│  6. A aplicação abrirá automaticamente!                                     │
+│                                                                              │
+│  ⏱️ Tempo total: ~2 minutos                                                  │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 🐧 Linux (Ubuntu/Fedora/etc)                                               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  1. Abra o Terminal (Ctrl+Alt+T)                                            │
+│  2. Digite: cd ~/miniERP-pro                                                │
+│  3. Digite: chmod +x iniciar.sh                                             │
+│  4. Digite: ./iniciar.sh                                                    │
+│  5. Aguarde 30-60 segundos                                                  │
+│  6. A aplicação abrirá automaticamente!                                     │
+│                                                                              │
+│  ⏱️ Tempo total: ~2 minutos                                                  │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+🎨 O QUE VOCÊ VAI VER
+═════════════════════════════════════════════════════════════════════════════════
+
+Quando a aplicação abrir:
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │ ⚙️ miniERP Pro                                     👤 Usuário           │  ← Navbar (70px)
+  ├──────────────────┬────────────────────────────────────────────────────┤
+  │                  │                                                     │
+  │  🏠 Dashboard    │  📊 4 CARDS:                                        │
+  │  ━━━━━━━━━━━━━━ │                                                     │
+  │                  │  • 💰 Vendas Hoje         → R$ 0,00                │
+  │ 📊 OPERACIONAL   │  • 📄 NF-e Pendentes      → 0                      │
+  │  💰 PDV          │  • 📦 Estoque Baixo       → 0 itens                │
+  │  📋 Orçamentos   │  • 🏷️ Produtos Cadastr.  → 0                      │
+  │  🔧 Ordens OS    │                                                     │
+  │  📅 Agenda       │                                                     │
+  │  ━━━━━━━━━━━━━━ │                                                     │
+  │ 📦 CADASTROS     │                                                     │
+  │  🛍️ Produtos     │                                                     │
+  │  🔩 Serviços     │                                                     │
+  │  ━━━━━━━━━━━━━━ │                                                     │
+  │ 📈 ANÁLISE       │                                                     │
+  │  🚗 Histórico    │                                                     │
+  │  ⚠️ Alertas      │                                                     │
+  │  📊 Relatórios   │                                                     │
+  │  ━━━━━━━━━━━━━━ │                                                     │
+  │ 💳 FINANCEIRO    │                                                     │
+  │  💵 Contas Rec.  │                                                     │
+  │  ━━━━━━━━━━━━━━ │                                                     │
+  │ ⚙️ ADMINISTRATIVO│                                                     │
+  │  📄 Importar NF  │                                                     │
+  │  🖨️ Impressoras  │                                                     │
+  │                  │                                                     │
+  └──────────────────┴────────────────────────────────────────────────────┘
+     Sidebar (280px)           Content Area (Responsivo)
+
+
+📋 TESTE BÁSICO
+═════════════════════════════════════════════════════════════════════════════════
+
+Após a aplicação abrir:
+
+  1. Verifique a Navbar
+     ✓ Logo "⚙️ miniERP Pro" no canto superior esquerdo (amarelo)
+     ✓ Info do usuário no canto superior direito
+
+  2. Verifique a Sidebar
+     ✓ Fundo escuro (dark mode)
+     ✓ 20+ itens de menu com emojis
+     ✓ 5 categorias: Operacional, Cadastros, Análise, Financeiro, Administrativo
+
+  3. Verifique o Dashboard
+     ✓ 4 cards coloridos (verde, azul, laranja, amarelo)
+     ✓ Títulos com emojis
+     ✓ Valores em destaque
+     ✓ Bordas coloridas
+
+  4. Teste um clique
+     ✓ Clique em um item do menu (ex: "Produtos")
+     ✓ A tela deve mudar
+     ✓ O item deve ficar destacado
+
+  5. Cores
+     ✓ Amarelo corporativo em destaques
+     ✓ Dark mode (fundo escuro)
+     ✓ Contraste alto (fácil ler)
+
+
+🆘 ALGO DEU ERRADO?
+═════════════════════════════════════════════════════════════════════════════════
+
+PROBLEMA: "Arquivo não encontrado"
+SOLUÇÃO:  Certifique-se de estar na pasta correta (miniERP-pro)
+
+PROBLEMA: "Permissão negada" (Mac/Linux)
+SOLUÇÃO:  Execute: chmod +x iniciar.sh && ./iniciar.sh
+
+PROBLEMA: "Python não encontrado"
+SOLUÇÃO:  Instale em: https://www.python.org/downloads/
+
+PROBLEMA: "Interface em branco"
+SOLUÇÃO:  Aguarde alguns segundos, pode estar carregando
+
+PROBLEMA: "Erro de banco de dados"
+SOLUÇÃO:  Deixe abrir completamente (primeira vez é mais lenta)
+
+MÁS PROBLEMAS?
+  Leia: COMO_RODAR.md (solução de problemas completa)
+
+
+📚 DOCUMENTAÇÃO RÁPIDA
+═════════════════════════════════════════════════════════════════════════════════
+
+Precisa de ajuda? Consulte:
+
+  QUICK_START.txt
+    └─ Guia super rápido (comece aqui!)
+
+  INDICE_MASTER.txt
+    └─ Mapa completo de toda documentação
+
+  COMO_RODAR.md
+    └─ Guia técnico detalhado + troubleshooting
+
+  README_DESIGN.md
+    └─ Entenda o novo design
+
+  VISUAL_DESIGN_GUIDE.md
+    └─ Especificações técnicas (colors, fonts, spacing)
+
+
+🎯 PRÓXIMAS AÇÕES
+═════════════════════════════════════════════════════════════════════════════════
+
+Depois de rodar:
+
+  ✓ Explore todos os menus
+  ✓ Teste as funcionalidades
+  ✓ Verifique as cores e design
+  ✓ Personalize cores se necessário (edite theme.py)
+  ✓ Comece a desenvolver as outras telas
+
+
+🔧 PERSONALIZAR CORES (Opcional)
+═════════════════════════════════════════════════════════════════════════════════
+
+Se quiser mudar as cores:
+
+  1. Abra: erp_frontend/theme.py
+  2. Procure: COLORS = {...}
+  3. Modifique os valores hex:
+     "#FDB913" ← Amarelo (primária)
+     "#121212" ← Fundo escuro
+     "#10B981" ← Verde
+     etc.
+
+  4. Salve e reinicie a aplicação
+
+
+💡 DICAS PRO
+═════════════════════════════════════════════════════════════════════════════════
+
+✓ Atalho: Crie um atalho de "iniciar.bat" na área de trabalho (Windows)
+         → Duplo clique sempre que quiser rodar
+
+✓ Estude theme.py: Entenda o sistema temático
+                   → Use em novos views
+
+✓ Use VISUAL_DESIGN_GUIDE.md: Para manter coerência visual
+                              → Cores, fonts, spacing
+
+✓ Migre outros views: Use o novo sistema temático
+                     → 15+ views para converter
+
+
+═════════════════════════════════════════════════════════════════════════════════
+
+✅ STATUS: PRONTO PARA USAR AGORA!
+
+   Escolha sua plataforma acima e comece em 2 minutos.
+   Tudo está configurado e pronto para funcionar.
+
+═════════════════════════════════════════════════════════════════════════════════
+
+                        Boa sorte com seu miniERP Pro!
+                               Data: 21/07/2026
+
+═════════════════════════════════════════════════════════════════════════════════
