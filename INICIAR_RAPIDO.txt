@@ -1,0 +1,148 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║          miniERP Pro - GUIA RÁPIDO PARA RODAR LOCALMENTE          ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+OPÇÃO 1: MODO SUPER RÁPIDO (Recomendado)
+═════════════════════════════════════════════════════════════════════
+
+Windows:
+--------
+1. Abra o gerenciador de arquivos
+2. Acesse a pasta do projeto (miniERP-pro)
+3. Clique 2x no arquivo "iniciar.bat"
+4. Aguarde 30-60 segundos
+5. A aplicação abrirá automaticamente
+
+macOS/Linux:
+----------
+1. Abra o terminal
+2. Navegue para a pasta: cd ~/miniERP-pro
+3. Execute: chmod +x iniciar.sh && ./iniciar.sh
+4. Aguarde 30-60 segundos
+5. A aplicação abrirá automaticamente
+
+
+OPÇÃO 2: MANUAL (Se der problema)
+═════════════════════════════════════════════════════════════════════
+
+Passo 1: Abrir terminal/CMD
+─────────────────────────────
+Windows: Pressione Win+R, digite "cmd" e Enter
+macOS/Linux: Abra o Terminal
+
+Passo 2: Navegar para a pasta
+──────────────────────────────
+cd caminho/para/miniERP-pro
+
+Passo 3: Criar ambiente virtual (primeira vez)
+──────────────────────────────────────────────
+Windows:
+  python -m venv venv
+  venv\Scripts\activate
+
+macOS/Linux:
+  python3 -m venv venv
+  source venv/bin/activate
+
+Passo 4: Instalar dependências (primeira vez)
+──────────────────────────────────────────────
+pip install -r requirements.txt
+
+Passo 5: Rodar a aplicação
+───────────────────────────
+Windows:
+  python erp_frontend/main_window.py
+
+macOS/Linux:
+  python3 erp_frontend/main_window.py
+
+
+PROBLEMAS COMUNS E SOLUÇÕES
+═════════════════════════════════════════════════════════════════════
+
+❌ "Python não encontrado"
+────────────────────────────
+Solução: Instale Python de https://www.python.org/downloads/
+Ao instalar, MARQUE "Add Python to PATH"
+
+❌ "ModuleNotFoundError: customtkinter"
+────────────────────────────────────────
+Solução: Digite no terminal:
+  pip install customtkinter --upgrade
+
+❌ "Arquivo .bat não executa"
+────────────────────────────
+Solução: 
+1. Clique com botão direito em iniciar.bat
+2. Selecione "Executar como administrador"
+
+❌ "Permissão negada ao executar .sh (macOS/Linux)"
+────────────────────────────────────────────────────
+Solução: No terminal, execute:
+  chmod +x iniciar.sh
+  ./iniciar.sh
+
+❌ "Aplicação lenta na primeira vez"
+─────────────────────────────────────
+É normal! Primeira execução é mais lenta.
+Deixe a aplicação abrir completamente (pode levar 1-2 minutos).
+
+
+VERIFICAR SE ESTÁ FUNCIONANDO
+═════════════════════════════════════════════════════════════════════
+
+✓ Janela "miniERP Pro" aberta
+✓ Menu com 20+ opções na esquerda
+✓ Dashboard mostrando 4 cards (Vendas, NF-e, Estoque, Produtos)
+✓ Navbar superior com logo e usuário
+
+
+APÓS ABRIR
+═════════════════════════════════════════════════════════════════════
+
+1. Clique em um item do menu para testar
+2. Veja as cores amarelas (marca) + dark mode
+3. Teste a navegação entre telas
+4. Verifique o design novo
+
+
+PRÓXIMAS VEZES
+═════════════════════════════════════════════════════════════════════
+
+Windows:
+  • Abra iniciar.bat (2x clique) = Pronto!
+
+macOS/Linux:
+  • Terminal: ./iniciar.sh = Pronto!
+
+Ou manual em qualquer SO:
+  • Ative venv
+  • Execute: python erp_frontend/main_window.py
+
+
+INFORMAÇÕES ÚTEIS
+═════════════════════════════════════════════════════════════════════
+
+Versão: 1.0 Super Customização
+Status: Pronto para Produção
+Documentação: Veja README_DESIGN.md
+Problemas avançados: Veja COMO_RODAR.md
+
+Contato/Suporte:
+- GitHub: https://github.com/arthurvalves/miniERP-pro
+- Issues: Abra uma issue no repositório
+
+
+DICA PRO
+═════════════════════════════════════════════════════════════════════
+
+Se quiser rodar de novo sem terminal:
+1. Crie um arquivo "rodar.bat" (Windows) ou "rodar.sh" (Mac/Linux)
+2. Copie o conteúdo do respectivo arquivo de inicialização
+3. Coloque em um local fácil de acessar
+4. 2x clique para rodar
+
+
+═════════════════════════════════════════════════════════════════════
+                    Última atualização: 21/07/2026
+═════════════════════════════════════════════════════════════════════
