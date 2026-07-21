@@ -1,0 +1,255 @@
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                 🎨 miniERP Pro - SUPER CUSTOMIZAÇÃO VISUAL                        ║
+║                      Dark Mode Premium + Amarelo (Marca)                          ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│  ⚙️ miniERP Pro              [Navbar 70px - #1A1F28]                👤 Usuário Admin│
+├──────────────────┬──────────────────────────────────────────────────────────────────┤
+│                  │                                                                  │
+│  🏠 Dashboard    │  ┌──────────────────────────────┬──────────────────────────────┐ │
+│  ▔▔▔▔▔▔▔▔▔▔▔▔▔▔  │  │         💰 VENDAS HOJE        │      📄 NF-E PENDENTES    │ │
+│                  │  │  ┌───────────────────────────┐  │  ┌───────────────────────┐│ │
+│  📊 OPERACIONAL  │  │  │                           │  │  │                       ││ │
+│    💰 PDV        │  │  │    R$ 5.230,45            │  │  │        0              ││ │
+│    📋 Orçamentos │  │  │    [Green bar bottom]      │  │  │  [Blue bar bottom]    ││ │
+│    🔧 OS         │  │  │                           │  │  │                       ││ │
+│    📅 Agenda     │  │  └───────────────────────────┘  │  └───────────────────────┘│ │
+│                  │  │  BG: #064E3B                 │  │  BG: #0C2340            │ │
+│                  │  │  Border: #10B981 (2px)       │  │  Border: #3B82F6 (2px)  │ │
+│  📦 CADASTROS    │  │                              │  │                         │ │
+│    🛍️ Produtos   │  └──────────────────────────────┴──────────────────────────────┘ │
+│    🔩 Serviços   │                                                                  │
+│                  │  ┌──────────────────────────────┬──────────────────────────────┐ │
+│  📈 ANÁLISE      │  │      📦 ESTOQUE BAIXO         │  🏷️ PRODUTOS CADASTRADOS  │ │
+│    🚗 Histórico  │  │  ┌───────────────────────────┐  │  ┌───────────────────────┐│ │
+│    ⚠️  Alertas   │  │  │                           │  │  │                       ││ │
+│    📊 Relatórios │  │  │    47 itens               │  │  │    1.250              ││ │
+│                  │  │  │  [Orange bar bottom]       │  │  │  [Yellow bar bottom]  ││ │
+│  💳 FINANCEIRO   │  │  │                           │  │  │                       ││ │
+│    💵 Contas     │  │  └───────────────────────────┘  │  └───────────────────────┘│ │
+│                  │  │  BG: #78350F                 │  │  BG: #451A03            │ │
+│                  │  │  Border: #F59E0B (2px)       │  │  Border: #F59E0B (2px)  │ │
+│  ⚙️ ADMINISTRATIVO│  │                              │  │                         │ │
+│    📄 NF-e       │  └──────────────────────────────┴──────────────────────────────┘ │
+│    🖨️ Impressoras│                                                                  │
+│                  │  [Content Area]                                                  │
+│  ───────────────  │  Fundo: #0F1419 (muito escuro)                                  │
+│                  │  Padding: 24px em todos os lados                                │
+│  [Sidebar]       │  Responsivo: cards se empilham em resoluções menores           │
+│  280px width     │                                                                  │
+│  #1A1F28         │                                                                  │
+│  Scrollable      │                                                                  │
+│                  │                                                                  │
+│                  │                                                                  │
+└──────────────────┴──────────────────────────────────────────────────────────────────┘
+
+
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                          🎯 DESTAQUES DO DESIGN                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+
+1. CORES E CONTRAST
+   ┌─────────────────────────────────────────┐
+   │ Primary (Marca):        #FDB913 (Amarelo) │
+   │ BG Dark:                #0F1419 (Escuro)  │
+   │ BG Secondary:           #1A1F28 (Menu)    │
+   │ BG Tertiary:            #232A35 (Cards)   │
+   │ Text Primary:           #FFFFFF (Branco)  │
+   │                                           │
+   │ ✓ Contraste WCAG AAA                     │
+   │ ✓ Reduz fadiga em uso prolongado         │
+   └─────────────────────────────────────────┘
+
+2. TIPOGRAFIA
+   ┌──────────────────────────────────┐
+   │ Título Dashboard:  32px Bold     │
+   │ Rótulo Card:       14px Bold     │
+   │ Valor Card:        36px Bold     │
+   │ Menu Item:         13px Regular  │
+   │ Categoria Menu:    11px Bold     │
+   │                                  │
+   │ Font: Inter (moderna)            │
+   │ Fallback: System sans-serif      │
+   └──────────────────────────────────┘
+
+3. PALETAS DE CONTEXTO
+   ┌──────────────────────────────────────────────┐
+   │                                              │
+   │  SUCCESS (Verde)    ███ #10B981             │
+   │  BG: #064E3B        Text: #6EE7B7           │
+   │  Uso: Vendas, positivo                      │
+   │                                              │
+   │  INFO (Azul)        ███ #3B82F6             │
+   │  BG: #0C2340        Text: #93C5FD           │
+   │  Uso: NF-e, info                            │
+   │                                              │
+   │  WARNING (Laranja)  ███ #F59E0B             │
+   │  BG: #78350F        Text: #FBBF24           │
+   │  Uso: Estoque, alerta                       │
+   │                                              │
+   │  PRIMARY (Amarelo)  ███ #FDB913             │
+   │  BG: #451A03        Text: #FDB913           │
+   │  Uso: Marca, destaque                       │
+   │                                              │
+   └──────────────────────────────────────────────┘
+
+4. ESPACAMENTO
+   ┌────────────────────────┐
+   │ XS: 4px   (gaps)       │
+   │ SM: 8px   (pequenos)   │
+   │ MD: 12px  (padrão)     │
+   │ LG: 16px  (grandes)    │
+   │ XL: 24px  (container)  │
+   │ 2XL: 32px (seções)     │
+   └────────────────────────┘
+
+
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                       📋 COMPONENTES PRINCIPAIS                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+
+NAVBAR (Topo - 70px)
+═══════════════════════════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ ⚙️ miniERP Pro  [Titulo Amarelo 20px Bold]        [User Info] 👤 Admin 12px    │
+│ Padding: 16px                                     Padding: 16px                │
+│ BG: #1A1F28 | Border-bottom: 1px #2F3A47         Font: Inter                 │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+
+SIDEBAR (Esquerda - 280px)
+═══════════════════════════════════════════════════════════════════════════════════
+┌──────────────────────────────────┐
+│ 🏠 Dashboard                     │ ← Height: 40px, Hover: #232A35
+│ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ │ ← Separador
+│                                  │
+│ 📊 OPERACIONAL                   │ ← Categoria (11px bold, amarela)
+│   💰 PDV (Ponto de Venda)       │ ← Item (13px, cinzento)
+│   📋 Orçamentos                 │ ← Item ativo: fundo #232A35, texto amarelo
+│   🔧 Ordens de Serviço          │
+│   📅 Agenda                     │
+│                                  │
+│ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ │
+│ 📦 CADASTROS                     │
+│   🛍️ Produtos                    │
+│   🔩 Serviços                    │
+│                                  │
+│ [scrollable]                     │
+│ [mais itens abaixo]             │
+│                                  │
+│ BG: #1A1F28                      │
+│ Border-right: 1px #2F3A47        │
+│ Width: 280px fixo               │
+│ Font: Inter                      │
+└──────────────────────────────────┘
+
+
+CARD (Dashboard)
+═══════════════════════════════════════════════════════════════════════════════════
+┌────────────────────────────────────────┐
+│ 💰 Vendas Hoje                        │ ← Label: 14px Bold, branco
+│                                       │
+│ R$ 5.230,45                          │ ← Value: 36px Bold, colorido
+│                                       │ 
+│ ╔════════════════════════════════════╗│ ← Barra (3px altura, cor da paleta)
+└────────────────────────────────────────┘
+
+Props:
+- Width: 50% do container (grid weight=1)
+- Padding: 16px (xl)
+- Margin: 12px (md) entre cards
+- Border-radius: 12px (lg)
+- Border: 2px + cor da paleta
+- Min-height: ~200px
+
+Cores (Exemplo - Success):
+- BG: #064E3B (dark green)
+- Border: #10B981 (neon green)
+- Text: #FFFFFF (branco)
+- Value: #6EE7B7 (light green)
+
+
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                      ⚡ VELOCIDADE OPERACIONAL                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+
+✓ Identificação rápida via emojis
+  🏠 Dashboard | 💰 PDV | 📄 NF-e | 🔧 OS | 📅 Agenda
+
+✓ Cores vibrantes para status imediato
+  Verde = OK | Azul = Info | Laranja = Alerta | Amarelo = Marca
+
+✓ Menu categorizado = menos scroll
+  Operacional | Cadastros | Análise | Financeiro | Administrativo
+
+✓ Tipografia grande e clara
+  Valores em 36px Bold para leitura rápida
+
+✓ Contraste alto em dark mode
+  Reduz fadiga após 8+ horas de uso
+
+
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                         🔄 PRÓXIMAS OTIMIZAÇÕES                                  ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+
+1. Hover Effects
+   - Sidebar item: fade to #232A35 (50ms)
+   - Card: subtle lift 1.02x scale (150ms)
+
+2. Modo Light
+   - BG: #F5F5F5, Text: #0F1419
+   - Mesma paleta, valores invertidos
+
+3. Componentes Reutilizáveis
+   - CustomButton (primary, secondary, danger)
+   - CustomCard (com cores automáticas)
+   - CustomInput (com validação visual)
+
+4. Temas Departamentais
+   - PDV (venda rápida): amarelo/verde
+   - Oficina (manutenção): azul/laranja
+   - Admin (financeiro): roxo/vermelho
+
+
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                              📊 RESUMO FINAL                                      ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│ ANTES:                          │ DEPOIS:                                        │
+├────────────────────────────────┼────────────────────────────────────────────────┤
+│ Navbar horizontal simples      │ Navbar profissional + Sidebar categorizado     │
+│ Menu suspenso em navbar        │ Menu lateral com emojis e highlight           │
+│ Cards simples com 1 cor        │ Cards com paletas de contexto (4 cores)        │
+│ Cores genéricas                │ Sistema temático centralizado                  │
+│ Tipografia padrão              │ Tipografia moderna Inter, tamanhos exatos      │
+│ Sem espaçamento padrão         │ Escala de espaçamento xs-2xl                   │
+│ Layout rígido                  │ Layout responsivo e escalável                  │
+│                                │                                                │
+│ Resultado: Funcional           │ Resultado: Premium + Operacional               │
+└────────────────────────────────┴────────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════════════
+                        🎉 SUPER CUSTOMIZAÇÃO COMPLETA! 🎉
+═══════════════════════════════════════════════════════════════════════════════════════
+
+Criado: 21/07/2026
+Versão: 1.0
+Status: ✅ Pronto para uso
+
+Arquivos principais:
+  • erp_frontend/theme.py (sistema temático)
+  • erp_frontend/main_window.py (interface)
+  • erp_frontend/dashboard_view.py (dashboard)
+
+Documentação:
+  • DESIGN_UPDATES.md (visão geral)
+  • VISUAL_DESIGN_GUIDE.md (especificações)
+  • CHANGES_SUMMARY.md (resumo de mudanças)
+  • MOCKUP_VISUAL.txt (este arquivo)
+
+═══════════════════════════════════════════════════════════════════════════════════════
