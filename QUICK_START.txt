@@ -1,0 +1,192 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                        miniERP Pro - QUICK START                             ║
+║                    Seu Sistema de Gestão Automotiva                          ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+🚀 COMECE AGORA (3 PASSOS)
+═════════════════════════════════════════════════════════════════════════════════
+
+Windows:
+────────
+1️⃣ Duplo clique em: iniciar.bat
+2️⃣ Aguarde 30-60 segundos
+3️⃣ Aproveite!
+
+macOS/Linux:
+─────────────
+1️⃣ Terminal: chmod +x iniciar.sh && ./iniciar.sh
+2️⃣ Aguarde 30-60 segundos
+3️⃣ Aproveite!
+
+
+💡 SE QUISER FAZER MANUALMENTE
+═════════════════════════════════════════════════════════════════════════════════
+
+1. python -m venv venv
+2. source venv/bin/activate (ou venv\Scripts\activate no Windows)
+3. pip install -r requirements.txt
+4. python erp_frontend/main_window.py
+
+
+📁 ARQUIVOS PRINCIPAIS
+═════════════════════════════════════════════════════════════════════════════════
+
+Configuração de Temas:
+  └─ erp_frontend/theme.py ........... Sistema de cores + espaçamento
+
+Interface:
+  ├─ erp_frontend/main_window.py ..... Janela principal + sidebar
+  ├─ erp_frontend/dashboard_view.py .. Dashboard com cards
+  └─ erp_frontend/*_view.py ......... Outras telas
+
+Backend:
+  └─ erp_backend/ ................... API + banco de dados
+
+
+📚 DOCUMENTAÇÃO
+═════════════════════════════════════════════════════════════════════════════════
+
+Começar:
+  • INICIAR_RAPIDO.txt ............. Este arquivo (super visual)
+  • COMO_RODAR.md .................. Guia detalhado com troubleshooting
+
+Design:
+  • README_DESIGN.md ............... Resumo visual do novo design
+  • DESIGN_UPDATES.md .............. O que mudou
+  • VISUAL_DESIGN_GUIDE.md ......... Especificações técnicas (329 linhas!)
+  • MOCKUP_VISUAL.txt .............. Layout com ASCII art + cores
+
+Mudanças:
+  • CHANGES_SUMMARY.md ............. Resumo por arquivo
+  • FINAL_SUMMARY.txt .............. Entregáveis e estatísticas
+
+
+🎨 O QUE FOI FEITO
+═════════════════════════════════════════════════════════════════════════════════
+
+✅ Sistema Temático Centralizado
+   • 5 cores core (primário amarelo, neutros, contextos)
+   • 4 paletas de contexto (success, warning, info, primary)
+   • Tipografia Inter padronizada
+   • Espaçamento xs→2xl
+
+✅ Novo Layout
+   • Navbar no topo (70px)
+   • Sidebar à esquerda (280px) com 20+ itens
+   • Conteúdo à direita responsivo
+   • Menu categorizado com emojis
+   • Highlight em item ativo
+
+✅ Dashboard Premium
+   • 4 cards customizados
+   • Cores vibrantes por contexto
+   • Bordas coloridas
+   • Tipografia grande para leitura rápida
+
+✅ Foco em Velocidade Operacional
+   • Identificação via emojis
+   • Menu organizado por departamento
+   • Contraste alto (WCAG AAA)
+   • Design moderno + escuro (menos fadiga)
+
+
+🎯 RECURSOS PRINCIPAIS
+═════════════════════════════════════════════════════════════════════════════════
+
+📊 Dashboard
+   → Vendas hoje
+   → NF-e pendentes
+   → Estoque baixo
+   → Produtos cadastrados
+
+💰 PDV (Ponto de Venda)
+   → Venda rápida
+   → Calculo de troco
+   → Aplicar descontos
+
+📦 Cadastros
+   → Produtos
+   → Serviços
+   → Fornecedores
+
+🔧 Ordens de Serviço
+   → Criar/editar OS
+   → Acompanhar andamento
+   → Gerar NF-e
+
+📅 Agenda
+   → Agendar serviços
+   → Lembrete de manutenção
+   → Histórico de cliente
+
+📈 Relatórios
+   → Vendas por período
+   → Produtos mais vendidos
+   → Clientes top
+
+
+⚙️ PERSONALIZAÇÃO
+═════════════════════════════════════════════════════════════════════════════════
+
+Mudar Cores:
+  Edite: erp_frontend/theme.py
+  Linha: COLORS = {...}
+
+Mudar Tamanho da Janela:
+  Edite: erp_frontend/main_window.py
+  Procure: self.geometry("1400x900")
+
+Adicionar Novo Menu:
+  Edite: erp_frontend/main_window.py
+  Função: _create_sidebar_menu()
+
+Novo Card no Dashboard:
+  Edite: erp_frontend/dashboard_view.py
+  Veja: _create_card()
+
+
+🐛 PROBLEMAS COMUNS
+═════════════════════════════════════════════════════════════════════════════════
+
+"Python não encontrado"
+  → Instale em: https://www.python.org/downloads/
+
+"customtkinter não encontrado"
+  → pip install customtkinter --upgrade
+
+"Erro de banco de dados"
+  → Primeira execução pode demorar
+  → Deixe a aplicação abrir completamente
+
+"Interface em branco"
+  → Aguarde alguns segundos
+  → Pode estar inicializando
+
+
+📞 SUPORTE
+═════════════════════════════════════════════════════════════════════════════════
+
+GitHub: https://github.com/arthurvalves/miniERP-pro
+Docs: Veja COMO_RODAR.md para troubleshooting avançado
+
+
+✨ PRÓXIMOS PASSOS
+═════════════════════════════════════════════════════════════════════════════════
+
+1. Rodar a aplicação (clique em iniciar.bat ou execute ./iniciar.sh)
+2. Explorar os menus
+3. Testar o dashboard
+4. Personalizar cores e layout conforme necessário
+5. Usar em produção!
+
+
+════════════════════════════════════════════════════════════════════════════════
+
+                    Status: ✅ PRONTO PARA USAR
+                    Versão: 1.0 Super Customização
+                    Data: 21/07/2026
+
+════════════════════════════════════════════════════════════════════════════════
